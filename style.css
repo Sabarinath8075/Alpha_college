@@ -30,7 +30,7 @@ body {
   box-shadow: rgba(10, 22, 41, 0.6) 0px 10px 22px;
 }
 
-.header > img {
+.header>img {
   width: 72px;
   height: 73px;
   margin-top: -6px;
@@ -53,13 +53,13 @@ body {
   background-position: center;
 }
 
-.call > li > a {
+.call>li>a {
   color: white;
   text-decoration: none;
   list-style: none;
 }
 
-.call > li {
+.call>li {
   list-style: none;
 }
 
@@ -78,11 +78,11 @@ body {
   list-style: none;
 }
 
-.social > li > a {
+.social>li>a {
   color: white;
 }
 
-.p1 > h5 {
+.p1>h5 {
   align-content: left;
   font-size: 4px;
 }
@@ -124,14 +124,14 @@ cpad {
 }
 
 .home {
-  height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.call-bt > a {
+.call-bt>a {
   height: 100%;
   width: fit-content;
   display: flex;
@@ -146,12 +146,14 @@ cpad {
 }
 
 .call-bt {
-  width: fit-content;
   font-size: 1.7em;
   height: 3em;
-  padding: 0.2em 1em;
-  margin-top: 1em;
-  border-radius: 30px;
+  border-radius: 300px;
+  background-color: red;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-bt {
@@ -166,22 +168,18 @@ cpad {
   width: fit-content;
   height: 7.5em;
   padding: 0.1em 0.5em;
-  background: rgba(10, 22, 41, 0.2);
-  backdrop-filter: blur(10px);
   display: grid;
-  box-shadow: rgba(10, 22, 41, 0.7) 0px 7px 15px;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-radius: 30px;
-  border: 1px solid #fffa;
   margin-top: -2em;
 }
 
-.map > iframe {
+.map>iframe {
   filter: invert(90%) hue-rotate(180deg);
   border-radius: 30px;
   position: static;
 }
+
 .map-container iframe {
   height: 100%;
   border: 0;
