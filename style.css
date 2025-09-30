@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   background-position-y: 4em;
@@ -12,7 +12,6 @@ body {
   justify-content: center;
   background-size: 40vh;
   background-size: 100%;
-
 }
 
 .header {
@@ -31,7 +30,7 @@ body {
   box-shadow: rgba(10, 22, 41, 0.6) 0px 10px 22px;
 }
 
-.header>img {
+.header > img {
   width: 72px;
   height: 73px;
   margin-top: -6px;
@@ -43,7 +42,6 @@ body {
   font-size: 17px;
   margin-left: 10px;
   margin: 10px;
-
 }
 
 .al {
@@ -55,16 +53,14 @@ body {
   background-position: center;
 }
 
-.call>li>a {
+.call > li > a {
   color: white;
   text-decoration: none;
   list-style: none;
 }
 
-.call>li {
+.call > li {
   list-style: none;
-
-
 }
 
 .contact {
@@ -75,22 +71,18 @@ body {
   font-weight: bold;
   margin-top: -2em;
   margin-bottom: -0.5em;
-
 }
 
 .social {
   text-decoration: none;
   list-style: none;
-
 }
 
-.social>li>a {
+.social > li > a {
   color: white;
-
 }
 
-
-.p1>h5 {
+.p1 > h5 {
   align-content: left;
   font-size: 4px;
 }
@@ -118,7 +110,6 @@ html {
   display: grid;
 
   grid-template-columns: 50% 50%;
-
 }
 
 cpad {
@@ -135,12 +126,12 @@ cpad {
 .home {
   height: 100vh;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.call-bt>a {
+.call-bt > a {
   height: 100%;
   width: fit-content;
   display: flex;
@@ -161,7 +152,6 @@ cpad {
   padding: 0.2em 1em;
   margin-top: 1em;
   border-radius: 30px;
-
 }
 
 .social-bt {
@@ -187,14 +177,20 @@ cpad {
   margin-top: -2em;
 }
 
-.mapouter {
-  margin-top: 1em;
-  border: 1px #000;
-  height: 30px;
-  width: 20px;
-}
-
-.map>iframe {
+.map > iframe {
   filter: invert(90%) hue-rotate(180deg);
   border-radius: 30px;
+  position: static;
+}
+.map-container iframe {
+  height: 100%;
+  border: 0;
+}
+
+#location {
+  height: 100%;
+}
+
+.mapofalpha {
+  position: static;
 }
