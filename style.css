@@ -10,6 +10,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-size: 40vh;
+  background-size: 100%;
 
 }
 
@@ -98,7 +100,6 @@ body {
   color: white;
   text-align: left;
   margin-left: 1em;
-  margin-top: 8em;
 }
 
 .list {
@@ -173,7 +174,7 @@ cpad {
 
 .dock {
   width: fit-content;
-  height: 15em;
+  height: 7.5em;
   padding: 0.1em 0.5em;
   background: rgba(10, 22, 41, 0.2);
   backdrop-filter: blur(10px);
@@ -183,8 +184,17 @@ cpad {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border-radius: 30px;
   border: 1px solid #fffa;
+  margin-top: -2em;
 }
 
 .mapouter {
   margin-top: 1em;
+  border: 1px #000;
+  height: 30px;
+  width: 20px;
+}
+
+.map>iframe {
+  filter: invert(90%) hue-rotate(180deg);
+  border-radius: 30px;
 }
